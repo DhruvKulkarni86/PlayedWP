@@ -4,7 +4,7 @@ A spotify playlist creator created using ReactJS and a custom wordpress plugin.
 
 ## Working
 
-This project uses Spotify API's [Implicit Grant Flow]("https://developer.spotify.com/documentation/web-api/tutorials/implicit-flow") for user authorization.
+This project uses Spotify API's [Implicit Grant Flow](https://developer.spotify.com/documentation/web-api/tutorials/implicit-flow) for user authorization.
 
 The user selects the songs on the frontend and sends an HTTP request with selected song IDs to the wordpress plugin along with the access token to actually generate a spotify playlist.
 
@@ -24,4 +24,4 @@ VITE_SPOTIFY_SCOPES= Read more about scopes here->https://developer.spotify.com/
 VITE_BACK_URL= path to your WP plugin
 ```
 
--   I used [Local]("https://localwp.com/") to run WP locally, just pop the `spotify-api` in the `plugins` folder
+-   I used [Local](https://localwp.com/) to run WP locally, just pop the `spotify-api` in the `plugins` folder
